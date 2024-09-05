@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightblue;
+}
+.logo img{
+        width: 140px;
+        height: auto;
+    }
+                                   
+header {
+    background-color: #6ad6fd;
+    color: #0d0d0d;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav .logo {
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: dashed;
+    padding: 5px 5px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section#home {
+    text-align: center;
+    margin: 40px 0;
+}
+
+section#products {
+    margin: 40px 0;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    width: 30%;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-item h3 {
+    margin: 10px 0;
+}
+
+.product-item p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.product-item button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.product-item button:hover {
+    background-color: #555;
+}
+.btn{
+    text-decoration: dashed;
+    text-align: right;
+}
+
+.contact-left{
+    flex-basis: 50%;
+    padding: 1% 5%;
+    text-align: center;
+}
+.contact-right{
+    flex-basis: 50%;
+}
+.contact-left p{
+    margin-top: 30px;
+}
+.btn{
+    display: inline;
+    background: #f7f6f6;
+}
+.btn2{
+    display: inline-block;
+    background: #f7f6f6;
+}
+.contact-right form{
+    width: 100%;
+}
+form input,form textarea{
+    width: 100%;
+    border: 0;
+    outline: auto;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+
+}
+form btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.gap {
+    height: 100px;
+}
+.btn_btn2{
+    margin-left: 750px;
+}
+.social {
+    size: 100%;
+    color: orangered;
+    border: 2px ;
+}
